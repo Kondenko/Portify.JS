@@ -36,11 +36,11 @@ function locationmapper(){
 	if (window.location.pathname == "/music/listen" && window.QueryString && window.QueryString.spotifyoauth) {
 		gplayTakeover();
 	}
-	else if (window.location.pathname == "/web-api/console/get-current-user-playlists/") {
+	else if (window.location.pathname == "/console/get-current-user-playlists/") {
 		spotifyCode();
 	}
 	else {
-		window.location = "https://developer.spotify.com/web-api/console/get-current-user-playlists/";
+		window.location = "https://developer.spotify.com/console/get-current-user-playlists/";
 	}
 }
 
